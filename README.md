@@ -45,3 +45,18 @@ They include Excel files summarizing:
 /data → Raw and preprocessed datasets for EURUSD, USDCHF, etc.
 /src → Source code for Leader Correction models and optimization algorithms.
 /output → Generated results (Excel) from experiments.
+## 🚀 How to Run
+Clone the repository:
+git clone https://github.com/n1e9g9a9rna/ForexLeaderCorrection_GA_WOA_PSO_SBO.git
+Navigate into the project folder:
+cd ForexLeaderCorrection_GA_WOA_PSO_SBO
+Install dependencies:
+
+pip install -r requirements.txt
+Run the desired optimization algorithm (example: GA Leader Correction):
+python src/ga_leader_correction.py
+The results will be generated in the /output/ folder as .xlsx 
+
+
+
+
