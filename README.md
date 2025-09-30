@@ -29,4 +29,19 @@ Each algorithm optimizes parameters:
 - `n_SMA` – Simple Moving Average window size
 - `d11` – PPPL threshold parameter
 - `SL` – Stop Loss
+
 - `TP` – Take Profit
+- 📊 Outputs & Results
+All generated results can be found in the `/output/` folder.  
+They include Excel files summarizing:
+
+- **Optimal_Parameters.xlsx** – Optimal values for `n_SMA`, `d11`, `SL`, `TP` obtained via GA, WOA, PSO, SBO.
+- **Performance_Comparison.xlsx** – Net Profit, Profit/Risk ratio, and Max Drawdown before and after optimization.
+- **Leader_Correction_Summary.xlsx** – Performance of dynamic leader switching across sliding windows.
+
+> GitHub cannot preview `.xlsx` files online. Download them locally to view in Excel or LibreOffice.
+
+📂 Repository Structure
+/data → Raw and preprocessed datasets for EURUSD, USDCHF, etc.
+/src → Source code for Leader Correction models and optimization algorithms.
+/output → Generated results (Excel) from experiments.
